@@ -1,0 +1,70 @@
+# Player morreu
+Morreu: '&7Voce morreu e foi para o SPAWN'
+
+# Player desconectou do evento
+Desconectou: '&e${player} desconectou do evento.'
+
+# Quando bater no próprio Nexus
+Hit-Proprio: '&e[NEXUS] &cVoce deve proteger este nexus e destruir o do inimigo para vencer!'
+
+# Vai ficar mandando no chat de minuto em minuto até começar
+Chamados-Inicio:
+  - '&r'
+  - '&2&lNEXUS &f- &lEVENTO ABERTO'
+  - '&r'
+  - '&aPara entrar no evento, use: &f/nexus entrar'
+  - '&aTempo restante: &f${tempo} minuto(s)'
+  - '&aParticipantes: ${quantia}&f/&a${max}'
+  - '&r'
+
+# Assim que terminar o tempo de iniciar manda essa mensagem para quem está participando
+Chamados-Iniciando:
+  - '&r'
+  - '&2&lNEXUS &f- &c&lPVP'
+  - '&r'
+  - ' &6O pvp esta desativado.'
+  - ' &6Ele sera ativo em &e${tempo} &6segundos'
+  - ' &6Voce sera teleportado para sua base.'
+  - '&r'
+
+# Iniciou o evento
+Iniciou:
+  - '&r'
+  - '&2&lNEXUS &f- &c&lPVP'
+  - '&r'
+  - ' &cPVP ATIVADO'
+  - ' &6Destrua o Inibidor inimigo para vencer'
+  - '&r'
+  - '&2&lNEXUS: &aDestua o NEXUS inimigo para vencer!'
+  - '&aCaso morra, você renascera!'
+
+# Um time matou o nexus do outro
+Ganhador:
+  - '&r'
+  - '&2&lNEXUS &f- &6&lVITORIA'
+  - '&r'
+  - '&eO time ${time} &evenceu a batalha!'
+  - '&eJogadores vivos: &3AZUL &f(${pAzul}) &cVERMELHO &f(${pVermelho})'
+  - '&r'
+
+# Quando acabar o tempo de evento, manda mensagem e finaliza o evento
+Acabou-Tempo:
+  - '&r'
+  - '&2&lNEXUS &f- &e&lEMPATE'
+  - '&r'
+  - '&6Parece que temos um empate, pois o tempo acabou.'
+  - '&r'
+
+# Se tiver apenas 1 player participando
+Falta-Players:
+  - '&r'
+  - '&2&lNEXUS &f- &c&lCANCELADO'
+  - '&cO evento foi cancelado por falta de jogadores participando'
+  - '&r'
+
+# Quando um staff usar /nexus parar
+Staff-Cancelou:
+  - '&r'
+  - '&2&lNEXUS &f- &c&lCANCELADO'
+  - '&cAlgum membro da equipe cancelou o evento.'
+  - '&r'

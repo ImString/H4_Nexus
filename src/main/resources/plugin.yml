@@ -1,0 +1,7 @@
+name: H4_Nexus
+main: me.stringdev.h4nexus.Main
+author: String
+version: 1.0
+commands:
+  nexus:
+  setnexus:

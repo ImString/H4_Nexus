@@ -1,0 +1,28 @@
+Permissao:
+  # Permissão para usar os comandos admin
+  Admin: 'h4loja.nexus'
+  # Permissão para setar os nexus
+  SetNexus: 'h4loja.setnexus'
+
+# Maximo de jogadores no evento (recomendado deixar par)
+Maximo-Players: 60
+
+# Maximo de vida
+NexusLife:
+  Azul: 7000
+  Vermelho: 7000
+
+# Recompensa em dinheiro para os ganhadores
+# Necessita de Vault
+Recompensa:
+  1o: 10000
+
+Tempos:
+  # Tempo que ficara avisando para entrar antes que tranque o evento (em minutos)
+  Iniciar: 5
+  # Tempo que vai esperar para se organizarem (em segundos)
+  Iniciando: 30
+  # Tempo que vai acabar caso ninguem se mate (em minutos)
+  Acabar: 65
+  # Tempo para teleportar todos para a saida (em segundos)
+  Acabou: 5
